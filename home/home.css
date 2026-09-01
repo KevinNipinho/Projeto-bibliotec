@@ -1,0 +1,83 @@
+/* Header */
+
+a{
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.header{
+    background-color:var(--azul-escuro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    height: 10vh; 
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.navegacao a {
+        text-transform: uppercase;
+
+        font-size: 1em;
+        font-weight: 500;
+}
+
+/* Conteúdo Principal */
+
+/* Primeiro Banner */
+
+
+.banner-principal {
+    color: var(--branco);
+
+    height: 70vh;
+
+    background-image: url(../imgs/banner-principal-home.png);
+    background-size: cover;
+
+
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+    padding: 0 120px;
+}
+
+.texto-banner{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.texto-banner p{
+    font-size: 1.5em;
+    width: 50%;
+}
+
+.botao {
+    padding: 20px 50px;
+    border-radius: 10px;
+    background-color: var(--cor-destaque);
+    color: var(--azul-escuro);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.botao:hover{
+    background-color: #00f7ea;
+    color: var(--branco);
+}
+
+.banner-principal img{
+    align-self: flex-end;
+    width: 35%;
+}
