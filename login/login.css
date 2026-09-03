@@ -1,0 +1,84 @@
+a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../imgs/banner-login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-color: var(--azul-escuro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    height: 10vh;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.navegacao a {
+    text-transform: uppercase;
+
+    font-size: 1em;
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.login {
+    background-color: #E9F0EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+
+    width: 725px;
+    height: 750px;
+
+    border-radius: 30px;
+}
+
+.inputs{
+margin-top: 50px;
+}
+
+.inputs input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.senha{
+    margin-top: 20px;
+}
+
+
+#input-senha {
+    background-image: url(../imgs/mdi-light_eye.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1.3em;
+}
+
