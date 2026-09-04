@@ -3,7 +3,7 @@ a {
     text-decoration: none;
 }
 
-body{
+body {
     background-image: url(../imgs/banner-login.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,11 +53,11 @@ main {
     border-radius: 30px;
 }
 
-.inputs{
-margin-top: 50px;
+.inputs {
+    margin-top: 50px;
 }
 
-.inputs input{
+.inputs input {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -67,21 +67,33 @@ margin-top: 50px;
     padding: 20px;
     border: none;
     border-radius: 10px;
+    outline: none;
+
+    background-color: var(--branco);
 
 }
 
-.senha{
-    margin-top: 20px;
+.inputs input::placeholder{
+    color: 00000050;
+    font-style: italic;
 }
 
-
-#input-senha {
-    background-image: url(../imgs/mdi-light_eye.svg);
-    background-repeat: no-repeat;
-    background-position: 470px;
-    background-size: 1.3em;
+.campo-senha {
+    position: relative;
 }
 
+.botao-olho{
+    position: absolute;
+
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: 00000050;
+}
 
 .botoes {
     display: flex;
@@ -89,7 +101,7 @@ margin-top: 50px;
 
     row-gap: 20px;
 
-   
+
 }
 
 .entrar,
@@ -109,13 +121,14 @@ margin-top: 50px;
     margin-top: 50px;
 }
 
-.entrar:hover{
+.entrar:hover {
     background-color: #364755;
 }
 
 .entrar:active {
-  background-color: #1A242B;
+    background-color: #1A242B;
 }
+
 .google {
     background-color: #ffffff;
     color: #26333D;
