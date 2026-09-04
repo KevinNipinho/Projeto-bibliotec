@@ -113,20 +113,24 @@ main {
 
     align-items: center;
     justify-content: center;
+    transition: transform 0.5s
 }
 
 .entrar {
     background-color: #26333D;
     text-transform: uppercase;
     margin-top: 50px;
+    transition: transform 0.5s;
 }
 
 .entrar:hover {
     background-color: #364755;
+    transform: translateY(-3px);
 }
 
 .entrar:active {
     background-color: #1A242B;
+    transform: translateY(3px);
 }
 
 .google {
@@ -135,6 +139,14 @@ main {
 
     display: flex;
     gap: 10px;
+}
+
+.google:hover {
+    transform: translateY(-3px);
+}
+
+.google:active {
+    transform: translateY(3px);
 }
 
 .google img {
