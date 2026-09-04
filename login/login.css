@@ -78,7 +78,52 @@ margin-top: 50px;
 #input-senha {
     background-image: url(../imgs/mdi-light_eye.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: 470px;
     background-size: 1.3em;
 }
 
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 20px;
+
+   
+}
+
+.entrar,
+.google {
+    border-radius: 10px;
+    height: 60px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.entrar {
+    background-color: #26333D;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.entrar:hover{
+    background-color: #364755;
+}
+
+.entrar:active {
+  background-color: #1A242B;
+}
+.google {
+    background-color: #ffffff;
+    color: #26333D;
+
+    display: flex;
+    gap: 10px;
+}
+
+.google img {
+    width: -50%;
+}
