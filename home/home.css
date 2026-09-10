@@ -486,4 +486,21 @@ footer span {
     .banner-meio .texto-banner {
         display: none;
     }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .rodape-logos img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .rodape-logos {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 }
